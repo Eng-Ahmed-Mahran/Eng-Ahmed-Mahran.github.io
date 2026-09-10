@@ -145,3 +145,40 @@ footer {
     border-top: 1px solid var(--border-color);
     font-size: 0.9rem;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .nav-content {
+        flex-direction: column;
+        gap: 15px;
+        padding: 1rem 0.5rem;
+    }
+    
+    .logo {
+        justify-content: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 0.9rem;
+    }
+
+    header {
+        height: 50vh;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+
+    #typing-text {
+        font-size: 1.1rem;
+    }
+
+    section {
+        padding: 2.5rem 0;
+    }
+}
